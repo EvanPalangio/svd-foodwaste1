@@ -1,0 +1,191 @@
+body {
+  font-family:  'Merriweather', serif;
+  background: #fff;
+  color: #000;
+
+}
+
+div {
+  animation-iteration-count: 1;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 40px;
+  font-weight: 200;
+  letter-spacing: .07em;
+  margin: auto;
+  margin-top: 5%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-transform: uppercase;
+  transition: color 0.4s ease-in-out;
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu ul li a:hover {
+  transform: translate3d(0, -8px, 0);
+}
+
+p {
+font-family: 'opensans',sans-serif;
+font-size: 16px;
+letter-spacing: 0.1em;
+line-height: 2em;
+left: 0;
+right: 0;
+text-align: justify;
+}
+
+.page-text {
+  width: 80%;
+  margin: auto;
+}
+
+
+.imgs {
+  display: block;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 90%;
+  width: 90%;
+
+}
+
+.menu {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 5%;
+  padding: 18px;
+  color: #46494C;
+
+}
+
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  padding: 18px 70px;
+  text-decoration: none;
+  transition: background-color 0.5s ease-in-out;
+  background-size: cover;
+}
+
+
+li:hover {
+  transition: background-color 0.5s ease;
+  padding: 18px 70px;
+  background-size: cover;
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform: scaleY(1) translateZ(0);
+
+}
+
+h1:hover {
+  transition: color 0.4s ease;
+  color: #46494C;
+}
+
+.fade-in {
+  opacity: 0;
+ animation-name: Fadein;
+ animation-duration: 3s;
+ animation-iteration-count: 1;
+ animation-fill-mode: forwards;
+ left: 2.5rem;
+ top: 5rem;
+}
+
+@keyframes Fadein {
+  0% {
+    bottom: -20rem;
+    opacity: 0;
+    position: absolute;
+  }
+}
+
+@keyframes Fadein {
+  100% {
+    bottom: 25%;
+    opacity: 1;
+  }
+}
+
+/* Mobile */
+
+@media all and (max-width: 480px) {
+  .page-text {
+    font-size: 10px;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .menu {
+    padding : 5px 5px;
+    display: inline;
+    margin-left: 15%;
+    width: 50%;
+
+  }
+}
+
+@media all and (max-width: 480px) {
+  li {
+    padding : 8px 20px;
+    font-size: 10px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  li:hover {
+    padding : 8px 20px;
+    display: inline;
+    overflow: hidden;
+
+  }
+}
+
+@media all and (max-width: 480px) {
+  ul {
+    padding : 8px 4px;
+    display: inline;
+    margin: auto;
+    overflow: hidden;
+    width: 50%;
+
+  }
+}
+
+@media all and (max-width: 480px) {
+  .imgs {
+    margin-top: 15%;
+    width: 90%;
+
+  }
+}
+
+@media all and (max-width: 480px) {
+  h1 {
+    font-size: 25px;
+    margin-top: 10%;
+
+  }
+}
