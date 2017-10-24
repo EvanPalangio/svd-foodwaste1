@@ -36,16 +36,17 @@ a {
 
 p {
 font-family: 'opensans',sans-serif;
-font-size: 16px;
+font-size: 12px;
 letter-spacing: 0.1em;
 line-height: 2em;
 left: 0;
 right: 0;
 text-align: justify;
+margin-top: 20%;
 }
 
 .page-text {
-  width: 80%;
+  width: 65%;
   margin: auto;
 }
 
@@ -58,7 +59,7 @@ text-align: justify;
   left: 0;
   right: 0;
   height: 90%;
-  width: 90%;
+  width: 100%;
 
 }
 
@@ -66,8 +67,8 @@ text-align: justify;
   width: 50%;
   margin: auto;
   text-align: center;
-  margin-bottom: 5%;
-  padding: 18px;
+  margin-bottom: 10%;
+  padding: 14px;
   color: #46494C;
 
 }
@@ -76,6 +77,7 @@ ul {
   display: inline;
   margin: 0;
   padding: 0;
+  font-family:  'Merriweather', serif;
 }
 
 li {
@@ -112,6 +114,10 @@ h1:hover {
  top: 5rem;
 }
 
+.svg {
+  margin-top: 10%;
+}
+
 @keyframes Fadein {
   0% {
     bottom: -20rem;
@@ -131,7 +137,7 @@ h1:hover {
 
 @media all and (max-width: 480px) {
   .page-text {
-    font-size: 10px;
+    font-size: 8px;
     width: 100%;
     margin: auto;
   }
@@ -139,7 +145,7 @@ h1:hover {
 
 @media all and (max-width: 480px) {
   .menu {
-    padding : 5px 5px;
+    padding : 4px 4px;
     display: inline;
     margin-left: 15%;
     width: 50%;
@@ -176,7 +182,7 @@ h1:hover {
 
 @media all and (max-width: 480px) {
   .imgs {
-    margin-top: 15%;
+    margin-top: 40%;
     width: 90%;
 
   }
@@ -187,5 +193,29 @@ h1:hover {
     font-size: 25px;
     margin-top: 10%;
 
+  }
+}
+
+@media all and (max-width: 480px) {
+  p {
+    margin-bottom: 30%;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .salmon {
+    content: url("images/salmon-mobile.svg")
+  }
+}
+
+@media all and (max-width: 480px) {
+  .meatballs {
+    content: url("images/meatballs-mobile.svg")
+  }
+}
+
+@media all and (max-width: 480px) {
+  .salad {
+    content: url("images/salad-mobile.svg")
   }
 }
