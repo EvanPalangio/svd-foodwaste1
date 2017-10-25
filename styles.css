@@ -197,24 +197,44 @@ h1:hover {
 }
 
 @media all and (max-width: 680px) {
+  span {
+    font-size: 12px;
+    margin-top: 10%;
+
+  }
+}
+
+@media all and (max-width: 680px) {
   p {
     margin-bottom: 30%;
   }
 }
 
-@media all and (max-width: 680px) {
+.salmon {
+  width: 100%;
+}
+
+@media screen and (max-width: 680px) {
   .salmon {
     content: url("images/salmon-mobile.svg")
   }
 }
 
-@media all and (max-width: 680px) {
+.meatballs {
+  width: 100%;
+}
+
+@media screen and (max-width: 680px) {
   .meatballs {
     content: url("images/meatballs-mobile.svg")
   }
 }
 
-@media all and (max-width: 680px) {
+.salad {
+  width: 100%;
+}
+
+@media screen and (max-width: 680px) {
   .salad {
     content: url("images/salad-mobile.svg")
   }
